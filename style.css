@@ -17,6 +17,28 @@ header .mimi {
 }
 
 
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: darkviolet;
+}
+
+.active {
+    background-color: white;
+    color: pink;
+ }
+
+li {
+    display: inline-flex;
+
+
+}
+
 h2 {
     text-align: center;
 
