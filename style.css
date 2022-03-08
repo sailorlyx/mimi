@@ -21,6 +21,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    text-shadow: 5px 5px 2px gainsboro;
 }
 
 a {
@@ -41,7 +42,7 @@ li {
 
 h2 {
     text-align: center;
-
+    color:darkviolet;
 }
 
 .mimi1 {
@@ -49,6 +50,12 @@ h2 {
     display:block;
     margin:auto;
 
+}
+
+.pagina {
+    display: flex;
+    flex-flow:column-reverse;
+    padding: 0 20px;
 }
 
 body {
