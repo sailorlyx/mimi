@@ -15,32 +15,3 @@ header .mimi {
     margin: 0 auto;
 
 }
-
-
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-shadow: 5px 5px 2px gainsboro;
-}
-
-a {
-    text-decoration: none;
-    color: darkviolet;
-}
-
-.active {
-    background-color: white;
-    color: pink;
- }
-
-li {
-    display: inline-flex;
-
-
-}
-
-h2 {
-    text-align: center;
-    color:darkviolet;
-}
