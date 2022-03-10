@@ -1,0 +1,46 @@
+header {
+    background-image: url("mimi/img/bkg.jpg");
+    background-size: cover;
+    display:flex;
+    height: 100px;
+    box-shadow: 9px 9px 16px -11px rgb(0 0 0 / 75%);
+    width: auto;
+    margin-bottom: auto;
+
+
+}
+header .mimi {
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-shadow: 5px 5px 2px gainsboro;
+}
+
+a {
+    text-decoration: none;
+    color: darkviolet;
+}
+
+.active {
+    background-color: white;
+    color: pink;
+ }
+
+li {
+    display: inline-flex;
+
+
+}
+
+h2 {
+    text-align: center;
+    color:darkviolet;
+}
