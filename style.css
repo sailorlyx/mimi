@@ -16,12 +16,26 @@ header .mimi {
 
 }
 
-h2 {
+/* h2 {
     position: absolute;
     width: 100%;
     padding-top: 50px;
     text-align: center;
     color: lightgray;
+} */
+
+button {
+    border-color: lightslategrey;
+    font-family: 'Maven Pro', sans-serif;
+    border-style: dotted;
+    border-radius: 40px;
+    background-color: white;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: lightblue;
+    box-shadow: 0 3px 3px gray;
 }
 
 
