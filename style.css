@@ -1,5 +1,5 @@
 header {
-    background-image: url("img/bkg.jpg");
+    background-image: url("img/bkg2.jpg");
     background-size: cover;
     display:flex;
     height: 100px;
@@ -7,13 +7,21 @@ header {
     width: auto;
     margin-bottom: auto;
 
-
 }
+
 header .mimi {
     height: 100%;
     display: block;
     margin: 0 auto;
 
+}
+
+h2 {
+    position: absolute;
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    color: lightgray;
 }
 
 
@@ -26,7 +34,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: darkviolet;
+    color: lightslategray;
 }
 
 .active {
@@ -38,11 +46,6 @@ li {
     display: inline-flex;
 
 
-}
-
-h2 {
-    text-align: center;
-    color:darkviolet;
 }
 
 .mimi1 {
@@ -59,7 +62,7 @@ h2 {
 }
 
 body {
-    font-family: 'Hubballi', cursive;
+    font-family: 'Maven Pro', sans-serif;
     margin:0;
 }
 
