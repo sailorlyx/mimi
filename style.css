@@ -45,67 +45,21 @@ button:hover {
     box-shadow: 0 3px 3px gray;
 }
 
-
-/* ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-shadow: 5px 5px 2px gainsboro;
-}
-
-a {
-    text-decoration: none;
-    color: lightslategray;
-}
-
-.active {
-    background-color: white;
-    color: pink;
- } */
-
-/* li {
-    display: inline-flex;
-
-
-} */
-
 * {box-sizing: border-box}
-
-.mimi1 {
-    border-radius:50%;
-    display:block;
-    margin:auto;
-    padding-top: 10px;
-
-}
-
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-
-}
 
 .mySlides {
     display:none;
 }
 
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
+img {vertical-align: middle;}
 
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    height: 300px;
+    margin-top: 10px;
+
 }
 
 .prev, .next {
@@ -132,6 +86,24 @@ a {
     background-color: rgba(0,0,0,0.8);
 }
 
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
 .dot {
     height: 15px;
     width: 15px;
@@ -156,6 +128,11 @@ a {
     to {opacity: 1}
 }
 
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  
+
 .pagina {
     display: flex;
     flex-flow:column-reverse;
@@ -166,30 +143,3 @@ body {
     font-family: 'Maven Pro', sans-serif;
     margin:0;
 }
-
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
-
-  /* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-    color: #f1f1f1;
-  }
-
-  /* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }

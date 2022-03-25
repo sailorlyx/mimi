@@ -2,10 +2,17 @@ function botones(nombre) {
     console.log("puta tu madre, " + nombre);
 }
 
-let slides = document.getElementsByClassName('mySlide');
-console.log('Sin esperar a que cargue: ' + slides.length);
+let slideIndex = 0;
+showSlides();
 
-document.addEventListener("DOMContentLoaded", function(event) { 
-   let slides = document.getElementsByClassName('mySlide');
-   console.log('Esperando a que cargue: ' + slides.length);
-});
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
